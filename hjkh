@@ -434,8 +434,8 @@ async def on_ready():
     )
     embed.set_thumbnail(url="https://i.ibb.co/kg532m6B/avatars-000615381687-t475ap-t240x240-removebg-preview.png")
     embed.set_footer(
-        text="Navi Multitool • github.com/glockinhand/navi-multitool",
-        icon_url="https://i.ibb.co/kg532m6B/avatars-000615381687-t475ap-t240x240-removebg-preview.png"
+        text="LoL",
+        icon_url="https://ibb.co/ZvxZtsd"
     )
     await channel.send(content="@here", embed=embed)
     game = discord.Game("Window logging stopped")
